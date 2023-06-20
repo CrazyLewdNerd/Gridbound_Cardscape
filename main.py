@@ -1,9 +1,6 @@
-TOKEN = 'MTExMjA5MjYyMzAyMTI3NzMyNA.GJbTXI.U2Bl-QsKgtgbxoHk_2TkzOJCfSomcQsHVXtxeg'
-#join clash url: https://discord.com/api/oauth2/authorize?client_id=522719682659090443&permissions=0&scope=bot%20applications.commands
-#join scape url: https://discord.com/api/oauth2/authorize?client_id=1112092623021277324&permissions=0&scope=bot%20applications.commands
 import discord
 from map import main
-
+from TOKEN import TOKEN
 
 main()
 class MyClient(discord.Client):
